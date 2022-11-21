@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  background-color: rgb(32, 115, 178);
+  color: white;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2rem 7%;
+  border-bottom: .1rem solid rgba(0, 0, 0, .1);
+  position: relative;
+  z-index: 1000;
+}
+
+header .logo {
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+header .logo span {
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 0 .3rem .5rem rgba(0, 0, 0, .1);
+  color: darkslategrey;
+}
+
+.container {
+  margin-top: 80px;
+  margin-bottom: 30px;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+}
+
+.search {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+form {
+  display: flex;
+}
+
+input {
+  padding: 15px 10px;
+  outline: none;
+  width: 400px;
+}
+
+.li-container {
+  font-size: 17px;
+  background-color: white;
+  width: 100%;
+  color: #333;
+  margin-top: 20px;
+}
+
+ul {
+  padding: 0;
+  background: #fff;
+}
+
+li {
+  list-style: none;
+  background-color: lightgray;
+  border-radius: 10px;
+  margin-top: 15px;
+  display: flex;
+}
+
+li p {
+  margin: 0;
+  padding: 15px;
+  width: 100%;
+}
+
+.btn-delete {
+  margin-left: auto;
+  border: none;
+  background-color: rgb(193, 33, 33);
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  outline: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 10%;
+  font-size: 1.2em;
+}
+
+.btn-delete:hover {
+  cursor: pointer;
+  background-color: rgb(32, 115, 178);
+}
+
+.btn-add {
+  padding: 5px 15px;
+  border: none;
+  color: white;
+  font-family: fantasy;
+  background-color: rgb(32, 115, 178);
+  font-size: 1.4rem;
+  outline: none;
+}
+
+.btn-add:hover {
+  cursor: pointer;
+  background-color: rgb(32, 115, 178);
+}
+
+.empty {
+  font-size: 18px;
+  color: black;
+  border: 2px solid lightblue;
+  border-radius: 15px;
+  display: inline-block;
+  background: #ddd;
+  padding-left: 20px;
+}
+
+
+@media screen and (max-width: 1280px) {
+  /* Footer */
+
+  #footer {
+    padding: 4.5em 0;
+  }
+}
+
+@media (max-width:768px) {
+
+  .container {
+    width: 400px;
+    height: 300px;
+  }
+}
